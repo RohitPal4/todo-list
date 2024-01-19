@@ -4,7 +4,7 @@ import React from 'react';
 
 const Clock = ({ currentTime }) => {
   return (
-    <div className="text-center text-2xl font-bold p-2 bg-sky-500 border-sky-500">
+    <div className="text-center text-2xl font-bold p-2 bg-sky-500 border-sky-500"suppressHydrationWarning>
       Current Time: {currentTime.toLocaleTimeString()}
     </div>
   );
